@@ -115,8 +115,9 @@ function LuxeLogo({ light = false }) {
       <img
         src="/blanceluxe.png"
         alt="BLANCÉ LUXE"
-        className={`h-auto w-[138px] object-contain ${light ? "brightness-0 invert" : ""
-          }`}
+        className={`h-auto w-[138px] object-contain ${
+          light ? "brightness-0 invert" : ""
+        }`}
       />
     </div>
   );
@@ -125,8 +126,9 @@ function LuxeLogo({ light = false }) {
 function SectionLabel({ children, light = false }) {
   return (
     <p
-      className={`mb-4 text-[10px] font-bold uppercase tracking-[0.23em] ${light ? "text-[#d4b976]" : "text-[#5e594d]"
-        }`}
+      className={`mb-4 text-[10px] font-bold uppercase tracking-[0.23em] ${
+        light ? "text-[#d4b976]" : "text-[#5e594d]"
+      }`}
     >
       {children}
     </p>
@@ -169,21 +171,6 @@ function AccordionItem({ item, isOpen, onClick }) {
   );
 }
 
-function MarqueeContent() {
-  return (
-    <>
-      <span>Body contouring</span>
-      <span className="text-[#cba758]">✦</span>
-      <span>Confidence</span>
-      <span className="text-[#cba758]">✦</span>
-      <span>Beauty & Wellness Hub</span>
-      <span className="text-[#cba758]">✦</span>
-      <span>Aesthetics </span>
-      <span className="text-[#cba758]">✦</span>
-    </>
-  );
-}
-
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [openFaq, setOpenFaq] = useState(0);
@@ -202,7 +189,8 @@ export default function Home() {
     event.preventDefault();
 
     const message = encodeURIComponent(
-      `Hei! Jeg ønsker informasjon om ${interest || "åpningstilbud"
+      `Hei! Jeg ønsker informasjon om ${
+        interest || "åpningstilbud"
       } hos BLANCÉ LUXE.`
     );
 
@@ -382,51 +370,13 @@ export default function Home() {
           </motion.div>
         </section>
 
-        <section className="hidden md:block overflow-hidden border-y border-[#1b1713] bg-[#0e0d0c] py-3 text-[#f6f0df]">
-          <motion.div
-            animate={{}}
-            transition={{
-              duration: 22,
-              ease: "linear",
-              repeat: Infinity,
-            }}
-            className="flex w-max items-center"
-          >
-            <div
-              aria-label="Body contouring, confidence, beauty and wellness hub"
-              className="flex shrink-0 items-center gap-7 whitespace-nowrap px-[14px] text-[8px] font-bold uppercase tracking-[0.24em] sm:gap-9"
-            >
-              <MarqueeContent />
-            </div>
-
-            <div
-              aria-hidden="true"
-              className="flex shrink-0 items-center gap-7 whitespace-nowrap px-[14px] text-[8px] font-bold uppercase tracking-[0.24em] sm:gap-9"
-            >
-              <MarqueeContent />
-            </div>
-          </motion.div>
-        </section>
-        <section className="border-y border-[#1b1713] bg-[#0e0d0c] px-5 py-5 text-[#f6f0df] md:hidden">
-          <div className="grid grid-cols-2 border-l border-t border-[#39352d]">
-            <div className="flex min-h-[78px] items-center justify-center border-b border-r border-[#39352d] px-4 text-center text-[8px] font-bold uppercase leading-4 tracking-[0.18em]">
-              Body contouring
-            </div>
-
-            <div className="flex min-h-[78px] items-center justify-center gap-3 border-b border-r border-[#39352d] px-4 text-center text-[8px] font-bold uppercase leading-4 tracking-[0.18em]">
-              <span className="text-[#cba758]">✦</span>
-              <span>Confidence</span>
-            </div>
-
-            <div className="flex min-h-[78px] items-center justify-center gap-3 border-b border-r border-[#39352d] px-4 text-center text-[8px] font-bold uppercase leading-4 tracking-[0.18em]">
-              <span>Beauty &amp; Wellness Hub</span>
-              <span className="text-[#cba758]">✦</span>
-            </div>
-
-            <div className="flex min-h-[78px] items-center justify-center gap-3 border-b border-r border-[#39352d] px-4 text-center text-[8px] font-bold uppercase leading-4 tracking-[0.18em]">
-              <span className="text-[#cba758]">✦</span>
-              <span>Aesthetics</span>
-            </div>
+        <section className="border-y border-[#1b1713] bg-[#0e0d0c] py-3 text-[#f6f0df]">
+          <div className="mx-auto flex max-w-7xl items-center justify-center gap-7 overflow-hidden whitespace-nowrap px-7 text-[8px] font-bold uppercase tracking-[0.24em] sm:px-10">
+            <span>Body contouring</span>
+            <span className="text-[#cba758]">✦</span>
+            <span>Confidence</span>
+            <span className="text-[#cba758]">✦</span>
+            <span>Beauty & Wellness Hub</span>
           </div>
         </section>
 
