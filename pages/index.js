@@ -518,7 +518,7 @@ export default function Home() {
               <p>
                 Jeg heter Dona. Jeg er kvinne, mor og har gjennom mange år
                 arbeidet med å ta vare på andre. Omsorg har alltid vært en stor
-                del av hvem jeg ermen min egen livsreise lærte meg også hvor
+                del av hvem jeg er, men min egen livsreise lærte meg også hvor
                 lett det er å sette seg selv sist.
               </p>
 
