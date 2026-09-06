@@ -39,7 +39,7 @@ const values = [
   {
     number: "01",
     title: "Mitt mål",
-    text: "Å hjelpe kvinner—særlig mødre og dem som ofte setter andre først—med å gjøre plass til egenpleie og møte kroppen sin med mer omsorg og selvtillit.",
+    text: "Å hjelpe kvinnersærlig mødre og dem som ofte setter andre førstmed å gjøre plass til egenpleie og møte kroppen sin med mer omsorg og selvtillit.",
   },
   {
     number: "02",
@@ -49,7 +49,7 @@ const values = [
   {
     number: "03",
     title: "Vår visjon",
-    text: "Å bygge BLANCÉ LUXE til et anerkjent, inkluderende skjønnhets- og velværemerke—med røtter i omsorg, kvalitet og troen på at selvtillit er for enhver kropp.",
+    text: "Å bygge BLANCÉ LUXE til et anerkjent, inkluderende skjønnhets- og velværemerkemed røtter i omsorg, kvalitet og troen på at selvtillit er for enhver kropp.",
   },
 ];
 
@@ -62,7 +62,7 @@ const experienceSteps = [
   {
     number: "02",
     title: "Vi tilpasser",
-    text: "Behandlingsområdet og planen vurderes individuelt—ingen standardløsning for alle.",
+    text: "Behandlingsområdet og planen vurderes individueltingen standardløsning for alle.",
   },
   {
     number: "03",
@@ -212,7 +212,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>BLANCÉ LUXE — Ålesund</title>
+        <title>BLANCÉ LUXE  Ålesund</title>
         <meta
           name="description"
           content="Personlig kroppsforming og egenpleie i rolige, eksklusive omgivelser."
@@ -368,7 +368,7 @@ export default function Home() {
 
             <p className="mt-10 max-w-xl text-[19px] leading-9 text-[#716b5e]">
               Personlig kroppsforming og egenpleie i rolige, eksklusive
-              omgivelser—skapt for å hjelpe deg føle deg vel i din egen kropp.
+              omgivelserskapt for å hjelpe deg føle deg vel i din egen kropp.
             </p>
 
             <button
@@ -518,7 +518,7 @@ export default function Home() {
               <p>
                 Jeg heter Dona. Jeg er kvinne, mor og har gjennom mange år
                 arbeidet med å ta vare på andre. Omsorg har alltid vært en stor
-                del av hvem jeg er—men min egen livsreise lærte meg også hvor
+                del av hvem jeg ermen min egen livsreise lærte meg også hvor
                 lett det er å sette seg selv sist.
               </p>
 
@@ -531,7 +531,7 @@ export default function Home() {
 
               <p>
                 For meg handler dette ikke om å bli en annen. Det handler om å
-                ta vare på den du allerede er—med behandlinger, veiledning og
+                ta vare på den du allerede ermed behandlinger, veiledning og
                 egenpleie som føles personlig, oppnåelig og meningsfull.
               </p>
             </div>
